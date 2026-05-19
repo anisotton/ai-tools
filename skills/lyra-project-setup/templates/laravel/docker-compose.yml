@@ -1,0 +1,49 @@
+services:
+  {{SLUG}}-app:
+    image: webdevops/php-nginx:{{RUNTIME_VERSION}}-alpine
+    container_name: {{SLUG}}-app
+    restart: unless-stopped
+    working_dir: /app
+    volumes:
+      - ./app:/app
+      - ./data/storage:/app/storage
+      - ./data/logs:/app/logs
+      - ./conf/10-php.conf:/opt/docker/etc/nginx/vhost.common.d/10-php.conf:ro
+    environment:
+      WEB_DOCUMENT_ROOT: /app/public
+      PHP_DISMOD: mailparse,xdebug
+    depends_on:
+      - {{SLUG}}-db
+      - {{SLUG}}-redis
+    networks:
+      - {{SLUG}}-internal
+      - proxy
+
+  {{SLUG}}-db:
+    image: mysql:8.0
+    container_name: {{SLUG}}-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE:-{{SLUG}}}
+      MYSQL_USER: ${DB_USERNAME:-{{SLUG}}}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+    networks:
+      - {{SLUG}}-internal
+
+  {{SLUG}}-redis:
+    image: redis:7-alpine
+    container_name: {{SLUG}}-redis
+    restart: unless-stopped
+    volumes:
+      - ./data/redis:/data
+    networks:
+      - {{SLUG}}-internal
+
+networks:
+  {{SLUG}}-internal:
+    name: {{SLUG}}-internal
+  proxy:
+    external: true

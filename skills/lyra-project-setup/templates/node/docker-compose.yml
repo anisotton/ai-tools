@@ -1,0 +1,37 @@
+services:
+  {{SLUG}}-app:
+    image: node:{{RUNTIME_VERSION}}-alpine
+    container_name: {{SLUG}}-app
+    restart: unless-stopped
+    working_dir: /app
+    command: sh -c "npm install && npm run dev"
+    volumes:
+      - ./app:/app
+      - ./data/logs:/app/logs
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: 3000
+    depends_on:
+      - {{SLUG}}-db
+    networks:
+      - {{SLUG}}-internal
+      - proxy
+
+  {{SLUG}}-db:
+    image: postgres:16-alpine
+    container_name: {{SLUG}}-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_DATABASE:-{{SLUG}}}
+      POSTGRES_USER: ${DB_USERNAME:-{{SLUG}}}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    networks:
+      - {{SLUG}}-internal
+
+networks:
+  {{SLUG}}-internal:
+    name: {{SLUG}}-internal
+  proxy:
+    external: true

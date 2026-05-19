@@ -1,0 +1,2 @@
+[nolc/sessions/nolc/ae008d2a-6bf9-47c8-8d4b-7a2a433e5099.jsonl#L2] User: Boa noite nolc
+[nolc/sessions/nolc/ae008d2a-6bf9-47c8-8d4b-7a2a433e5099.jsonl#L3] Assistant: Boa noite. Estou por aqui.

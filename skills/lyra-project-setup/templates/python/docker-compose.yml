@@ -1,0 +1,36 @@
+services:
+  {{SLUG}}-app:
+    image: python:{{RUNTIME_VERSION}}-slim
+    container_name: {{SLUG}}-app
+    restart: unless-stopped
+    working_dir: /app
+    command: sh -c "pip install -r requirements.txt && gunicorn --bind 0.0.0.0:8000 app:app"
+    volumes:
+      - ./app:/app
+      - ./data/logs:/app/logs
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+    depends_on:
+      - {{SLUG}}-db
+    networks:
+      - {{SLUG}}-internal
+      - proxy
+
+  {{SLUG}}-db:
+    image: postgres:16-alpine
+    container_name: {{SLUG}}-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_DATABASE:-{{SLUG}}}
+      POSTGRES_USER: ${DB_USERNAME:-{{SLUG}}}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    networks:
+      - {{SLUG}}-internal
+
+networks:
+  {{SLUG}}-internal:
+    name: {{SLUG}}-internal
+  proxy:
+    external: true
