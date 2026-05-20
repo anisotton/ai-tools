@@ -30,3 +30,6 @@
 - ISO-16 — Nexus via Oráculo: implementar/corrigir suíte de testes — smasy — assignee Oráculo (`2616f60a-8cc0-4390-8831-25aa9dcda39e`).
 - ISO-17 — Sentinel via Oráculo: validar suíte de testes e E2E — smasy — assignee Oráculo, bloqueada por ISO-16.
 - IDs relevantes: Nexus `d3b2a962-a0cd-47f4-a006-e6bb6fa63ab4`; Sentinel `b8960e19-e8a5-4b71-bd58-4badd52799c9`; Oráculo `2616f60a-8cc0-4390-8831-25aa9dcda39e`.
+
+## 2026-05-20 — Preferencia de idioma
+- O usuario prefere conversar em portugues do Brasil (pt-BR). Manter respostas concisas e amigaveis quando possivel.
