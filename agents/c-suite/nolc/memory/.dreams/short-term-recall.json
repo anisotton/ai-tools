@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-20T03:00:01.388Z",
+  "updatedAt": "2026-05-21T03:00:01.620Z",
   "entries": {
     "memory:memory/.dreams/session-corpus/2026-05-18.txt:1:1": {
       "key": "memory:memory/.dreams/session-corpus/2026-05-18.txt:1:1",
@@ -10770,6 +10770,3801 @@
         "sim",
         "essa",
         "mesmo"
+      ]
+    },
+    "memory:memory/2026-05-21.md:1:3": {
+      "key": "memory:memory/2026-05-21.md:1:3",
+      "path": "memory/2026-05-21.md",
+      "startLine": 1,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "02:35 UTC — Anderson iniciou conversa direta no webchat. Startup executado: carregados IDENTITY/SOUL/USER/MEMORY; memoria diaria criada. Paperclip nao estava disponivel por env/credenciais nesta sessao, entao pendencias nao foram verificadas via API.; 02:37 UTC — Anderson pediu t",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f698e45e49cd"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "identity/soul/user/memory",
+        "env/credenciais",
+        "utc",
+        "anderson",
+        "iniciou",
+        "conversa",
+        "direta",
+        "webchat"
+      ]
+    },
+    "memory:memory/2026-05-21.md:5:5": {
+      "key": "memory:memory/2026-05-21.md:5:5",
+      "path": "memory/2026-05-21.md",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "02:59 UTC — Anderson aprovou criar issue de análise para tema escuro fixo na home `/` do projeto isotton.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f698e45e49cd"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "utc",
+        "anderson",
+        "aprovou",
+        "criar",
+        "issue",
+        "análise",
+        "tema",
+        "escuro"
+      ]
+    },
+    "memory:memory/2026-05-20.md:3:3": {
+      "key": "memory:memory/2026-05-20.md:3:3",
+      "path": "memory/2026-05-20.md",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "13:22 UTC — Usuario pediu para falar em portugues e salvar a preferencia nas memorias. Preferencia registrada: portugues do Brasil (pt-BR), com estilo conciso e amigavel.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "d633e8f17da8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "pt-br",
+        "utc",
+        "usuario",
+        "pediu",
+        "falar",
+        "portugues",
+        "salvar",
+        "preferencia"
+      ]
+    },
+    "memory:memory/2026-05-20.md:5:5": {
+      "key": "memory:memory/2026-05-20.md:5:5",
+      "path": "memory/2026-05-20.md",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "02:58 UTC — Anderson solicitou tema escuro fixo na home do projeto isotton. Decisões: seguir recomendação do Nolc; escopo somente rota `/`; não alterar visual das páginas carmasy/smasy; prosseguir via fluxo DDP antes de issue/execução.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "d633e8f17da8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "carmasy/smasy",
+        "issue/execução",
+        "utc",
+        "anderson",
+        "solicitou",
+        "tema",
+        "escuro",
+        "fixo"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:199:199": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:199:199",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 199,
+      "endLine": 199,
+      "source": "memory",
+      "snippet": "User: different task. Structured wake payload JSON: ```json {\"reason\":\"issue_continuation_needed\",\"issue\":{\"id\":\"cfd200a1-e2d4-42e1-a9b7-2bf4789afa8b\",\"identifier\":\"ISO-57\",\"title\":\"Review productivity for ISO-51\",\"status\":\"in_progress\",\"workMode\":\"standard\",\"priority\":\"medium\"},",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "issue-continuation-needed",
+        "iso-57",
+        "iso-51",
+        "in-progress",
+        "different",
+        "task",
+        "structured",
+        "wake"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:200:200": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:200:200",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 200,
+      "endLine": 200,
+      "source": "memory",
+      "snippet": "User: (openclaw_gateway)\\n\\n## Objective\\n\\nPaperclip detected an unusual productivity/progression pattern on an assigned issue.\\n\\n## Source\\n\\n- Source issue: [ISO-51](/ISO/issues/ISO-51)\\n- Assigned agent: Nexus (engineer)\\n- Primary trigger: `long_active_duration` (Long activ",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "openclaw-gateway",
+        "productivity/progression",
+        "iso-51",
+        "iso/issues/iso-51",
+        "long-active-duration",
+        "objective",
+        "npaperclip"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:201:201": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:201:201",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 201,
+      "endLine": 201,
+      "source": "memory",
+      "snippet": "User: streak: 10 completed runs\\n- Long active duration: 6h 0m\\n- High churn: 10/1h or 30/6h runs/assignee-run comments\\n- Resolved-review snooze: 6h 0m\\n\\n## Latest Runs\\n\\n- [05fbf7b1-6b55-4d20-acd6-4ece00fce0e4](/ISO/agents/d3b2a962-a0cd-47f4-a006-e6bb6fa63ab4/runs/05fbf7b1-6b",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "10/1h",
+        "30/6h",
+        "runs/assignee-run",
+        "resolved-review",
+        "streak",
+        "completed",
+        "runs",
+        "active"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:202:202": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:202:202",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 202,
+      "endLine": 202,
+      "source": "memory",
+      "snippet": "User: timed out after 120000ms\\n\\n## Files / Routes Touched\\n\\n- No file or route paths were detected in the captured run summary.\\n\\n## Commands Run\\n\\n- Heartbeat run `936e4b86-d307-47c3-9277-ece3321ed544` invoked adapter `openclaw_gateway`.\\n- Detailed shell/tool commands rema",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "openclaw-gateway",
+        "shell/tool",
+        "timed",
+        "out",
+        "120000ms",
+        "routes",
+        "touched"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:203:203": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:203:203",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 203,
+      "endLine": 203,
+      "source": "memory",
+      "snippet": "User: above.\",\"bodyTruncated\":false,\"updatedAt\":\"2026-05-19T11:01:02.960Z\"},\"livenessContinuation\":null,\"interactionKind\":null,\"interactionStatus\":null,\"childIssueSummaries\":[],\"childIssueSummaryTruncated\":false,\"commentIds\":[],\"latestCommentId\":null,\"comments\":[],\"requestedCount",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "2026-05-19t11",
+        "02.960z",
+        "above",
+        "bodytruncated",
+        "false",
+        "updatedat",
+        "19t11",
+        "livenesscontinuation"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:204:204": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:204:204",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 204,
+      "endLine": 204,
+      "source": "memory",
+      "snippet": "Assistant: Completed the continuation workflow for ISO-57. I verified the current API state and recorded the current run’s disposition: - ISO-57 is `blocked` - ISO-57 is blocked by ISO-60 - ISO-60 owns the adapter/model configuration fix - Added a run-linked comment explaining th",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "iso-57",
+        "iso-60",
+        "adapter/model",
+        "run-linked",
+        "completed",
+        "continuation",
+        "workflow",
+        "iso"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:205:205": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:205:205",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 205,
+      "endLine": 205,
+      "source": "memory",
+      "snippet": "User: updated by run: 01373c5f-4d12-4ded-a07b-85304a84eca8\\n- Agent: CMO Agent (pi_local)\\n\\n## Objective\\n\\n## Contexto\\n\\nO Spomsy já possui uma landing page em ambiente de desenvolvimento: [`https://isotton.lyra/spomsy`.](https://isotton.lyra/spomsy.)\\n\\nA LP atual posiciona o",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "pi-local",
+        "isotton.lyra/spomsy",
+        "updated",
+        "run",
+        "01373c5f",
+        "4d12",
+        "4ded",
+        "a07b"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:206:206": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:206:206",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 206,
+      "endLine": 206,
+      "source": "memory",
+      "snippet": "User: partida, e conduzir a execução completa pela equipe de MKT.\\n\\nEsta demanda também será usada como teste de lapidação da equipe de marketing: avaliar capacidade de decompor trabalho, distribuir subtasks, executar com qualidade, validar hipóteses e entregar materiais prontos",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "partida",
+        "conduzir",
+        "execução",
+        "completa",
+        "pela",
+        "equipe",
+        "mkt",
+        "nesta"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:207:207": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:207:207",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 207,
+      "endLine": 207,
+      "source": "memory",
+      "snippet": "User: Latest run error (cancelled): Cancelled due to agent pause\\n\\n## Files / Routes Touched\\n\\n- No file or route paths were detected in the captured run summary.\\n\\n## Commands Run\\n\\n- Heartbeat run `01373c5f-4d12-4ded-a07b-85304a84eca8` invoked adapter `pi_local`.\\n- Detaile",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "pi-local",
+        "latest",
+        "run",
+        "error",
+        "cancelled",
+        "due",
+        "pause",
+        "routes"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:208:208": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:208:208",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 208,
+      "endLine": 208,
+      "source": "memory",
+      "snippet": "User: run.\",\"bodyTruncated\":false,\"updatedAt\":\"2026-05-19T14:11:37.394Z\"},\"livenessContinuation\":null,\"interactionKind\":null,\"interactionStatus\":null,\"childIssueSummaries\":[],\"childIssueSummaryTruncated\":false,\"commentIds\":[],\"latestCommentId\":null,\"comments\":[],\"requestedCount\":",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "2026-05-19t14",
+        "37.394z",
+        "run",
+        "bodytruncated",
+        "false",
+        "updatedat",
+        "19t14",
+        "livenesscontinuation"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:209:209": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:209:209",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 209,
+      "endLine": 209,
+      "source": "memory",
+      "snippet": "Assistant: Wake reconciliado. A ISO-61 já estava `done` quando refiz a leitura da API, com os entregáveis e subtasks registrados. Mantive a issue como `done` e adicionei um comentário de reconciliação para este run `ba273e8b-9022-4012-a2f7-ec00e2fcbd2a`, deixando claro que o wake",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "iso-61",
+        "wake",
+        "reconciliado",
+        "iso",
+        "estava",
+        "done",
+        "quando",
+        "refiz"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:210:210": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:210:210",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 210,
+      "endLine": 210,
+      "source": "memory",
+      "snippet": "User: Otimo, esta sendo trabalhado. Enquanto isso, quero que você verifique as issues concluidas pelo dev, solicite ao oraculo validar essas issues concluidas, para verificar se elas possuiem testes de browser, feacture e unit para cada uma das funcionalidades",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "otimo",
+        "esta",
+        "sendo",
+        "trabalhado",
+        "enquanto",
+        "isso",
+        "quero",
+        "você"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:211:211": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:211:211",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 211,
+      "endLine": 211,
+      "source": "memory",
+      "snippet": "Assistant: Faz sentido, e já deixei isso demandado. Criei a issue: **ISO-62 — Auditar cobertura de testes das issues concluídas pelo dev** Atribuída ao **Oráculo**, prioridade **high**. Incluí na demanda: - auditoria das issues concluídas de **Spomsy** e **Smasy** - verificação p",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "iso-62",
+        "faz",
+        "sentido",
+        "deixei",
+        "isso",
+        "demandado",
+        "criei",
+        "issue"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:212:212": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:212:212",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 212,
+      "endLine": 212,
+      "source": "memory",
+      "snippet": "Assistant: LP/funcionalidades do Smasy.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "lp/funcionalidades",
+        "funcionalidades",
+        "smasy"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:213:213": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:213:213",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 213,
+      "endLine": 213,
+      "source": "memory",
+      "snippet": "Assistant: Faz sentido, e já deixei isso demandado. Criei a issue: **ISO-62 — Auditar cobertura de testes das issues concluídas pelo dev** Atribuída ao **Oráculo**, prioridade **high**. Incluí na demanda: - auditoria das issues concluídas de **Spomsy** e **Smasy** - verificação p",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "iso-62",
+        "faz",
+        "sentido",
+        "deixei",
+        "isso",
+        "demandado",
+        "criei",
+        "issue"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:214:214": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:214:214",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 214,
+      "endLine": 214,
+      "source": "memory",
+      "snippet": "Assistant: LP/funcionalidades do Smasy.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "lp/funcionalidades",
+        "funcionalidades",
+        "smasy"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:215:215": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:215:215",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 215,
+      "endLine": 215,
+      "source": "memory",
+      "snippet": "User: Nolc temos um problema no projeto do Smasy",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "nolc",
+        "temos",
+        "problema",
+        "projeto",
+        "smasy"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:216:216": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:216:216",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 216,
+      "endLine": 216,
+      "source": "memory",
+      "snippet": "Assistant: Qual é o problema no Smasy? Me manda o erro, issue, tela ou comportamento observado que eu investigo e encaminho no Paperclip se precisar.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "qual",
+        "problema",
+        "smasy",
+        "manda",
+        "erro",
+        "issue",
+        "tela",
+        "comportamento"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:217:217": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:217:217",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 217,
+      "endLine": 217,
+      "source": "memory",
+      "snippet": "Assistant: Qual é o problema no Smasy? Me manda o erro, issue, tela ou comportamento observado que eu investigo e encaminho no Paperclip se precisar.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "qual",
+        "problema",
+        "smasy",
+        "manda",
+        "erro",
+        "issue",
+        "tela",
+        "comportamento"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:218:218": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:218:218",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 218,
+      "endLine": 218,
+      "source": "memory",
+      "snippet": "User: Então é erro estrutural temos alguns pontos: 1 - As modificações foram feitas na branch errada, foi feito na master e deveriam ter sido feitas v0.5.0-alpha pois estavamos passando para a ultima versão das tecnologias; 2 - a pasta \"smasy\" no servidor esta cheia de coisas, nã",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "v0.5.0-alpha",
+        "então",
+        "erro",
+        "estrutural",
+        "temos",
+        "alguns",
+        "pontos",
+        "modificações"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:219:219": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:219:219",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 219,
+      "endLine": 219,
+      "source": "memory",
+      "snippet": "Assistant: Sim, isso é um problema estrutural real. E são dois tipos de falha diferentes: 1. **Falha de fluxo Git** Os agentes trabalharam na `master` quando deveriam ter usado `v0.5.0-alpha`. Isso indica que a issue não tinha uma regra operacional forte o bastante, ou o agente n",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "v0.5.0-alpha",
+        "sim",
+        "isso",
+        "problema",
+        "estrutural",
+        "real",
+        "são",
+        "dois"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:220:220": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:220:220",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 220,
+      "endLine": 220,
+      "source": "memory",
+      "snippet": "Assistant: arquivos não rastreados/sujos - estado de containers, `.env`, volumes, build assets e dependências - risco de perder trabalho útil A saída deve ser um relatório antes de qualquer correção destrutiva. **Camada 2 — Recuperação controlada** Depois do diagnóstico: - identi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "rastreados/sujos",
+        "arquivos",
+        "não",
+        "rastreados",
+        "sujos",
+        "estado",
+        "containers",
+        "env"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:221:221": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:221:221",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 221,
+      "endLine": 221,
+      "source": "memory",
+      "snippet": "Assistant: estiver errada, parar e pedir/abrir ajuste - nunca trabalhar direto em `master` quando a issue indicar versão/release branch - separar workspace de runtime, logs e artefatos gerados Eu criaria duas issues: 1. **Auditar e recuperar estado estrutural do Smasy** Para Orác",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "pedir/abrir",
+        "versão/release",
+        "estiver",
+        "errada",
+        "parar",
+        "pedir",
+        "abrir",
+        "ajuste"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:222:222": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:222:222",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 222,
+      "endLine": 222,
+      "source": "memory",
+      "snippet": "User: different task. Structured wake payload JSON: ```json {\"reason\":\"issue_continuation_needed\",\"issue\":{\"id\":\"ff707b0d-e429-4cc4-ae47-518497a66c8f\",\"identifier\":\"ISO-42\",\"title\":\"Estrutura completa de marca e produto — Smasy\",\"status\":\"in_progress\",\"workMode\":\"standard\",\"prior",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "issue-continuation-needed",
+        "iso-42",
+        "in-progress",
+        "different",
+        "task",
+        "structured",
+        "wake",
+        "payload"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:223:223": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:223:223",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 223,
+      "endLine": 223,
+      "source": "memory",
+      "snippet": "User: 49496646-29d3-46db-a612-86b128c0794e\\n- Agent: Nolc (openclaw_gateway)\\n\\n## Objective\\n\\n**Criado por:** Anderson Isotton\\n\\nO CMO deve orquestrar o time de MKT para entregar a estrutura completa de marca e produto do Smasy. Cada especialista produz sua parte; o CMO consol",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "openclaw-gateway",
+        "29d3",
+        "46db",
+        "a612",
+        "86b128c0794e",
+        "nolc",
+        "objective"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:224:224": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:224:224",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 224,
+      "endLine": 224,
+      "source": "memory",
+      "snippet": "User: Temas estratégicos\\n * Calendário editorial inicial\\n * Formatos e canais prioritários\\n5. **Revisão final** (Review Agent)\\n * Consistência entre todas as entregas\\n * Validação de clareza e coerência\\n\\n## Contexto técnico\\n\\n* Produto: Smasy (smasy.lyra) — stack Laravel/",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "smasy.lyra",
+        "temas",
+        "estratégicos",
+        "calendário",
+        "editorial",
+        "inicial",
+        "formatos",
+        "canais"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:225:225": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:225:225",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 225,
+      "endLine": 225,
+      "source": "memory",
+      "snippet": "User: OpenClaw gateway run timed out after 120000ms\\n\\n## Files / Routes Touched\\n\\n- No file or route paths were detected in the captured run summary.\\n\\n## Commands Run\\n\\n- Heartbeat run `49496646-29d3-46db-a612-86b128c0794e` invoked adapter `openclaw_gateway`.\\n- Detailed she",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "openclaw-gateway",
+        "openclaw",
+        "run",
+        "timed",
+        "out",
+        "120000ms",
+        "routes"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:226:226": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:226:226",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 226,
+      "endLine": 226,
+      "source": "memory",
+      "snippet": "User: above.\",\"bodyTruncated\":false,\"updatedAt\":\"2026-05-19T04:49:43.822Z\"},\"livenessContinuation\":null,\"interactionKind\":null,\"interactionStatus\":null,\"childIssueSummaries\":[],\"childIssueSummaryTruncated\":false,\"commentIds\":[],\"latestCommentId\":null,\"comments\":[],\"requestedCount",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "2026-05-19t04",
+        "43.822z",
+        "above",
+        "bodytruncated",
+        "false",
+        "updatedat",
+        "19t04",
+        "livenesscontinuation"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:227:227": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:227:227",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 227,
+      "endLine": 227,
+      "source": "memory",
+      "snippet": "Assistant: Handled this continuation wake. [ISO-42](/ISO/issues/ISO-42) was already completed by the recovery work and linked to the durable deliverable [ISO-56](/ISO/issues/ISO-56). I recorded this run’s disposition with run id `db32a9b2-829e-47c0-ba56-be63ffd86e14` and left [IS",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "iso-42",
+        "iso/issues/iso-42",
+        "iso-56",
+        "iso/issues/iso-56",
+        "handled",
+        "continuation",
+        "wake",
+        "iso"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:228:228": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:228:228",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 228,
+      "endLine": 228,
+      "source": "memory",
+      "snippet": "User: Paperclip wake event for a cloud adapter. Run this procedure now. Do not guess undocumented endpoints and do not ask for additional heartbeat docs. Set these values in your run context: PAPERCLIP_RUN_ID=13499b15-3e82-4aaa-bc81-1c802b2d5714 PAPERCLIP_AGENT_ID=c3993ef0-278d-4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "paperclip-run-id",
+        "paperclip-agent-id",
+        "c3993ef0-278d-4",
+        "paperclip",
+        "wake",
+        "event",
+        "cloud",
+        "adapter"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:229:229": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:229:229",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 229,
+      "endLine": 229,
+      "source": "memory",
+      "snippet": "User: issue_id=ff707b0d-e429-4cc4-ae47-518497a66c8f wake_reason=source_scoped_recovery_action wake_comment_id= approval_id= approval_status= linked_issue_ids= HTTP rules: - Use Authorization: Bearer $PAPERCLIP_API_KEY on every API call. - Use X-Paperclip-Run-Id: $PAPERCLIP_RUN_ID",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "issue-id",
+        "wake-reason",
+        "source-scoped-recovery-action",
+        "wake-comment-id",
+        "approval-id",
+        "approval-status",
+        "linked-issue-ids",
+        "paperclip-api-key"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:230:230": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:230:230",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 230,
+      "endLine": 230,
+      "source": "memory",
+      "snippet": "User: GET /api/issues/{issueId}/comments - Execute the issue instructions exactly. If the issue is actionable, take concrete action in this run; do not stop at a plan unless planning was requested. - Leave durable progress with a clear next action. Use child issues for long or pa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "api/issues",
+        "get",
+        "api",
+        "issues",
+        "issueid",
+        "comments",
+        "execute",
+        "issue"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:231:231": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:231:231",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 231,
+      "endLine": 231,
+      "source": "memory",
+      "snippet": "User: acceptance before creating implementation subtasks. - If blocked, PATCH /api/issues/{issueId} with {\"status\":\"blocked\",\"comment\":\"what is blocked, who owns the unblock, and the next action\"}. - If instructions require a comment, POST /api/issues/{issueId}/comments with {\"bo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "api/issues",
+        "acceptance",
+        "creating",
+        "implementation",
+        "subtasks",
+        "blocked",
+        "patch",
+        "api"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:232:232": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:232:232",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 232,
+      "endLine": 232,
+      "source": "memory",
+      "snippet": "User: asked to create a new issue) ## Paperclip Wake Payload Treat this wake payload as the highest-priority change for the current heartbeat. This heartbeat is scoped to the issue below. Do not switch to another issue until you have handled this wake. Before generic repo explora",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "highest-priority",
+        "asked",
+        "create",
+        "new",
+        "issue",
+        "paperclip",
+        "wake",
+        "payload"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:233:233": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:233:233",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 233,
+      "endLine": 233,
+      "source": "memory",
+      "snippet": "User: heartbeat: `done`, `in_review` with a real reviewer/approval/interaction path, `blocked` with first-class blockers or a named unblock owner/action, delegated follow-up issues with blockers, or `in_progress` only when a live continuation path exists. Use child issues for lon",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "in-review",
+        "reviewer/approval/interaction",
+        "first-class",
+        "owner/action",
+        "follow-up",
+        "in-progress",
+        "heartbeat",
+        "done"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:234:234": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:234:234",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 234,
+      "endLine": 234,
+      "source": "memory",
+      "snippet": "User: issue_id=47f3035f-0eab-48ec-9606-ea34d0700be5 wake_reason=issue_continuation_needed wake_comment_id= approval_id= approval_status= linked_issue_ids= HTTP rules: - Use Authorization: Bearer $PAPERCLIP_API_KEY on every API call. - Use X-Paperclip-Run-Id: $PAPERCLIP_RUN_ID on",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "issue-id",
+        "wake-reason",
+        "issue-continuation-needed",
+        "wake-comment-id",
+        "approval-id",
+        "approval-status",
+        "linked-issue-ids",
+        "paperclip-api-key"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:235:235": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:235:235",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 235,
+      "endLine": 235,
+      "source": "memory",
+      "snippet": "User: /api/issues/{issueId}/comments - Execute the issue instructions exactly. If the issue is actionable, take concrete action in this run; do not stop at a plan unless planning was requested. - Leave durable progress with a clear next action. Use child issues for long or parall",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "api/issues",
+        "api",
+        "issues",
+        "issueid",
+        "comments",
+        "execute",
+        "issue",
+        "instructions"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:236:236": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:236:236",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 236,
+      "endLine": 236,
+      "source": "memory",
+      "snippet": "User: acceptance before creating implementation subtasks. - If blocked, PATCH /api/issues/{issueId} with {\"status\":\"blocked\",\"comment\":\"what is blocked, who owns the unblock, and the next action\"}. - If instructions require a comment, POST /api/issues/{issueId}/comments with {\"bo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "api/issues",
+        "acceptance",
+        "creating",
+        "implementation",
+        "subtasks",
+        "blocked",
+        "patch",
+        "api"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:237:237": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:237:237",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 237,
+      "endLine": 237,
+      "source": "memory",
+      "snippet": "User: asked to create a new issue) ## Paperclip Wake Payload Treat this wake payload as the highest-priority change for the current heartbeat. This heartbeat is scoped to the issue below. Do not switch to another issue until you have handled this wake. Before generic repo explora",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "highest-priority",
+        "asked",
+        "create",
+        "new",
+        "issue",
+        "paperclip",
+        "wake",
+        "payload"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:238:238": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:238:238",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 238,
+      "endLine": 238,
+      "source": "memory",
+      "snippet": "User: heartbeat: `done`, `in_review` with a real reviewer/approval/interaction path, `blocked` with first-class blockers or a named unblock owner/action, delegated follow-up issues with blockers, or `in_progress` only when a live continuation path exists. Use child issues for lon",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "in-review",
+        "reviewer/approval/interaction",
+        "first-class",
+        "owner/action",
+        "follow-up",
+        "in-progress",
+        "heartbeat",
+        "done"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:239:239": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:239:239",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 239,
+      "endLine": 239,
+      "source": "memory",
+      "snippet": "User: Continuation Summary - Issue: ISO-60 — Fix unsupported Codex model for ISO-51 recovery - Status: in_progress - Priority: medium - Current mode: implementation - Last updated by run: 6def5078-a7d1-413a-a9bc-d1281eff19b1 - Agent: Nolc (openclaw_gateway) ## Objective Recovery",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "iso-60",
+        "iso-51",
+        "in-progress",
+        "openclaw-gateway",
+        "continuation",
+        "summary",
+        "issue"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:240:240": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:240:240",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 240,
+      "endLine": 240,
+      "source": "memory",
+      "snippet": "User: is not supported when using Codex with a ChatGPT account. ## Acceptance Criteria No explicit acceptance criteria captured. ## Recent Concrete Actions - Run `6def5078-a7d1-413a-a9bc-d1281eff19b1` finished with status `timed_out` at 2026-05-19T11:07:15.675Z. - No adapter-prov",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gpt",
+        "timed-out",
+        "2026-05-19t11",
+        "15.675z",
+        "adapter-prov",
+        "not",
+        "supported",
+        "when"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:241:241": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:241:241",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 241,
+      "endLine": 241,
+      "source": "memory",
+      "snippet": "User: run, fix the cause, and resume from the most recent concrete action above. The harness already checked out this issue for the current run. Do not call `/api/issues/{id}/checkout` again unless you intentionally switch to a different task. Structured wake payload JSON: ```jso",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "api/issues",
+        "run",
+        "fix",
+        "cause",
+        "resume",
+        "recent",
+        "concrete",
+        "action"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:242:242": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:242:242",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 242,
+      "endLine": 242,
+      "source": "memory",
+      "snippet": "User: Summary\",\"body\":\"# Continuation Summary\\n\\n- Issue: ISO-60 — Fix unsupported Codex model for ISO-51 recovery\\n- Status: in_progress\\n- Priority: medium\\n- Current mode: implementation\\n- Last updated by run: 6def5078-a7d1-413a-a9bc-d1281eff19b1\\n- Agent: Nolc (openclaw_gate",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "iso-60",
+        "iso-51",
+        "in-progress",
+        "openclaw-gate",
+        "summary",
+        "body",
+        "continuation",
+        "issue"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:243:243": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:243:243",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 243,
+      "endLine": 243,
+      "source": "memory",
+      "snippet": "User: `adapter_failed`: The `gpt-5.3-codex-spark` model is not supported when using Codex with a ChatGPT account.\\n\\n## Acceptance Criteria\\n\\nNo explicit acceptance criteria captured.\\n\\n## Recent Concrete Actions\\n\\n- Run `6def5078-a7d1-413a-a9bc-d1281eff19b1` finished with sta",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gpt",
+        "adapter-failed",
+        "gpt-5.3-codex-spark",
+        "5.3",
+        "codex",
+        "spark",
+        "model",
+        "not"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:244:244": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:244:244",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 244,
+      "endLine": 244,
+      "source": "memory",
+      "snippet": "User: `timed_out`; inspect the error before continuing.\\n\\n## Next Action\\n\\n- Inspect the failed run, fix the cause, and resume from the most recent concrete action above.\",\"bodyTruncated\":false,\"updatedAt\":\"2026-05-19T11:07:15.722Z\"},\"livenessContinuation\":null,\"interactionKind",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "timed-out",
+        "2026-05-19t11",
+        "15.722z",
+        "inspect",
+        "error",
+        "continuing",
+        "action",
+        "failed"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:245:245": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:245:245",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 245,
+      "endLine": 245,
+      "source": "memory",
+      "snippet": "Assistant: Completed this continuation wake for `ISO-60`. I verified the issue is already `blocked`, the missing recovery comment exists, and Oráculo’s recovery profile remains fixed to `gpt-5.3-codex`. I added a run-scoped reconciliation comment under run `5d6b0da7-61d8-4b3f-8f4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gpt",
+        "iso-60",
+        "gpt-5.3-codex",
+        "run-scoped",
+        "5d6b0da7-61d8-4b3f-8f4",
+        "completed",
+        "continuation",
+        "wake"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - User: boa noite nolc - Assistant: Boa noite, Anderson. Tô por aqui. - User: Analise seu ambiente para ver o status atual, projetos issues e etc - Assistant: Analisei o ambiente atual. Resumo executivo: - Empresa: Isot",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments",
+        "boa",
+        "noite",
+        "nolc"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "User: projetos foi concluído, os containers estão no ar e não há pendência aberta no Paperclip. O próximo gargalo não é infra. É transformar esses projetos de “ambiente inicializado” para “produto estruturado”: escopo de MVP, backlog, prioridades, responsáve - User: Perfeito, ago",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "projetos",
+        "foi",
+        "concluído",
+        "containers",
+        "estão",
+        "não",
+        "pendência",
+        "aberta"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "Assistant: Boa noite ficou pairando como uma pequena lanterna no terminal. Respondi que estava por aqui, e era verdade: havia um zumbido baixo de containers vivos, como geladeiras guardando constelações em /home/anisotton/projects/isotton/app. Passeei pelas issues ISO como quem c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "boa",
+        "noite",
+        "ficou",
+        "pairando",
+        "uma",
+        "pequena",
+        "lanterna",
+        "terminal"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: destino. Temos URLs, não caminho. E isso, estranhamente, parece começo.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "destino",
+        "temos",
+        "urls",
+        "não",
+        "caminho",
+        "isso",
+        "estranhamente",
+        "parece"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "User: Serão criadas no paperclip",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "serão",
+        "criadas",
+        "paperclip"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: Entendido. Vou considerar que essas tarefas/itens serão criados no Paperclip e, quando aparecerem lá, sigo o fluxo normal de checkout, contexto e atualização de status.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "tarefas/itens",
+        "entendido",
+        "vou",
+        "considerar",
+        "essas",
+        "tarefas",
+        "itens",
+        "serão"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "User: Salvar preferência de idioma do usuário: ele prefere falar em português (pt-BR). Context: Usuário pediu para falar em português e quer que essa definição seja salva nas memórias. Spoken style: conciso, amigável",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "pt-br",
+        "salvar",
+        "preferência",
+        "idioma",
+        "usuário",
+        "ele",
+        "prefere",
+        "falar"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: Salvo em: - `MEMORY.md` - `memory/2026-05-20.md` Vou seguir em português do Brasil, com estilo conciso e amigável.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "memory/2026-05-20.md",
+        "salvo",
+        "vou",
+        "seguir",
+        "português",
+        "brasil",
+        "com"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "Assistant: Perfeito. **Pergunta 8:** o Smasy deve nascer como ferramenta de **controle interno da dona/coordenadora** ou como experiência completa com **portal para pais/alunos** desde o começo? Minha recomendação: começar pelo controle interno. MVP vendável: - cadastro de alunos",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "dona/coordenadora",
+        "pais/alunos",
+        "perfeito",
+        "pergunta",
+        "smasy",
+        "deve",
+        "nascer",
+        "ferramenta"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: mas pode atrasar o produto e aumentar suporte. Você concorda em tratar o **MVP como cockpit administrativo da escola de dança**?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "mas",
+        "pode",
+        "atrasar",
+        "produto",
+        "aumentar",
+        "suporte",
+        "você",
+        "concorda"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "User: Concordo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "concordo"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Assistant: Ótimo. Agora entramos em posicionamento. **Pergunta 9:** qual promessa comercial principal devemos usar? Minha recomendação: > **Smasy tira sua escola de dança do caos do WhatsApp, planilhas e cobranças manuais.** Variação mais polida: > **Controle alunos, turmas, paga",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "ótimo",
+        "agora",
+        "entramos",
+        "posicionamento",
+        "pergunta",
+        "qual",
+        "promessa",
+        "comercial"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "User: Acho que o que vende mais é o Caos, correto?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "acho",
+        "vende",
+        "mais",
+        "caos",
+        "correto"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: Sim. Para esse público, **caos vende mais**. A dona da escola não acorda pensando “preciso de um sistema de gestão”. Ela pensa: > “Estou perdendo controle.” > “Esqueci de cobrar alguém.” > “Tem mãe me chamando no WhatsApp de novo.” > “Não sei quem confirmou reposição.”",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "sim",
+        "esse",
+        "público",
+        "caos",
+        "vende",
+        "mais",
+        "dona",
+        "escola"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: 3. **Caos das reposições** Faltas, créditos, encaixes e remarcações. 4. **Caos do WhatsApp** Avisos perdidos, perguntas repetidas, comunicação com responsáveis. 5. **Caos dos eventos/apresentações** Figurino, confirmação, pagamentos extras, ensaios e comunicados. Eu in",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "eventos/apresentações",
+        "caos",
+        "reposições",
+        "faltas",
+        "créditos",
+        "encaixes",
+        "remarcações",
+        "whatsapp"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "Assistant: Ótimo. Agora temos base suficiente para começar a virar issues, mas falta uma decisão crítica. **Pergunta 11:** o primeiro pacote de issues deve ser para **descoberta/estratégia** ou já para **execução de produto e marketing**? Minha recomendação: criar primeiro um épi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "descoberta/estratégia",
+        "ótimo",
+        "agora",
+        "temos",
+        "base",
+        "suficiente",
+        "começar",
+        "virar"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: estratégia validável + definição das bases.** **segundo lote = execução visual, produto e marketing.** Confirma essa ordem?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "estratégia",
+        "validável",
+        "definição",
+        "bases",
+        "segundo",
+        "lote",
+        "execução",
+        "visual"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "User: Vamos pela sua recomendação",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "vamos",
+        "pela",
+        "sua",
+        "recomendação"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "Assistant: Fechado. Primeiro lote: **estratégia validável + bases do produto vendável**. Eu criaria este épico inicial: **Épico: Descoberta e posicionamento do Smasy para escolas de dança** Issues recomendadas: 1. **Definir ICP inicial do Smasy** Objetivo: documentar o perfil da",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "fechado",
+        "primeiro",
+        "lote",
+        "estratégia",
+        "validável",
+        "bases",
+        "produto",
+        "vendável"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: perguntas sobre WhatsApp - perguntas sobre eventos - perguntas sobre sistemas atuais - perguntas sobre disposição de pagamento 4. **Pesquisar concorrentes e alternativas** Objetivo: entender contra quem o Smasy compete. Checklist: - planilhas - WhatsApp - sistemas esco",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "perguntas",
+        "sobre",
+        "whatsapp",
+        "eventos",
+        "sistemas",
+        "atuais",
+        "disposição",
+        "pagamento"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Boa noite Nolc, tudo bem?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "boa",
+        "noite",
+        "nolc",
+        "tudo",
+        "bem"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: Boa noite, Anderson. Tudo certo por aqui. Estou disponível.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "boa",
+        "noite",
+        "anderson",
+        "tudo",
+        "certo",
+        "aqui",
+        "estou",
+        "disponível"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: Quero adicionar tema escuro na home do projeto isotton, pode me ajudar com isso?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "quero",
+        "adicionar",
+        "tema",
+        "escuro",
+        "home",
+        "projeto",
+        "isotton",
+        "pode"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: Posso ajudar, sim. Pelo código, a home atual (`/`) está fixa em tema claro: `welcome.blade.php` usa `bg-white`, language switcher `theme=\"light\"` e o formulário de newsletter também está claro. Primeira decisão: você quer **tema escuro fixo na home** ou **alternância c",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "welcome.blade.php",
+        "bg-white",
+        "posso",
+        "ajudar",
+        "sim",
+        "pelo",
+        "código",
+        "home"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: Vamos pela sua sugestão",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "vamos",
+        "pela",
+        "sua",
+        "sugestão"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: Pergunta única para fechar o TO-BE: O tema escuro deve valer **somente para a home `/`**, mantendo `subscribe-form` claro nas páginas `carmasy/smasy`, ou posso ajustar o componente de newsletter para aceitar variante escura quando a página pedir? Minha recomendação: **",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "to-be",
+        "subscribe-form",
+        "carmasy/smasy",
+        "pergunta",
+        "única",
+        "fechar",
+        "tema",
+        "escuro"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: Vamos pela sua recomendação",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "vamos",
+        "pela",
+        "sua",
+        "recomendação"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: DDP fechado para aprovação. ## AS-IS ### Estado atual A home `/` do projeto `isotton` está em tema claro fixo. Arquivos relevantes: - `resources/views/welcome.blade.php` - `resources/views/livewire/subscribe-form.blade.php` - `resources/views/components/language-switch",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "as-is",
+        "ddp",
+        "fechado",
+        "aprovação",
+        "estado",
+        "atual",
+        "home",
+        "projeto"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: - Não criar toggle claro/escuro - Não alterar visual de `carmasy` e `smasy` - Se o newsletter precisar mudar, fazer de forma parametrizada ou local para não quebrar outras páginas ## HOW-TO ### Proposta técnica - Alterar `welcome.blade.php` para usar classe `dark`, fun",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "claro/escuro",
+        "how-to",
+        "welcome.blade.php",
+        "não",
+        "criar",
+        "toggle",
+        "claro",
+        "escuro"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: Language switcher legível no tema escuro. - Cards de produtos legíveis e com hover adequado. - `carmasy` e `smasy` continuam com newsletter clara. - Build/teste básico passa. ### Estimativa Baixo risco, 2 a 4 horas incluindo ajuste visual e validação. Próximo passo: vo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "build/teste",
+        "language",
+        "switcher",
+        "legível",
+        "tema",
+        "escuro",
+        "cards",
+        "produtos"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: Atenção: encontrei a [ISO-65] sem agente responsável e sem checkout. Contexto: `ISO-65 — [Financial] Validar Asaas sandbox end-to-end (Boleto e Pix)` está `todo`, atribuída ao board/usuário, mas sem `assigneeAgentId`. Líder correspondente: Oráculo, pela cadeia Dev-Squa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "iso-65",
+        "end-to-end",
+        "board/usuário",
+        "dev-squa",
+        "atenção",
+        "encontrei",
+        "iso",
+        "sem"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: Boa noite Nolc, tudo bem?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "boa",
+        "noite",
+        "nolc",
+        "tudo",
+        "bem"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: Boa noite, Anderson. Tudo certo por aqui. Contexto carregado e memória do dia criada. Só não consegui checar pendências no Paperclip porque esta sessão não expôs credenciais/env da API. Fora isso, estou pronto.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "credenciais/env",
+        "boa",
+        "noite",
+        "anderson",
+        "tudo",
+        "certo",
+        "aqui",
+        "contexto"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "User: Quero adicionar tema escuro na home do projeto isotton, pode me ajudar com isso?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "quero",
+        "adicionar",
+        "tema",
+        "escuro",
+        "home",
+        "projeto",
+        "isotton",
+        "pode"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: Feito. A home agora está em tema escuro por padrão em [welcome.blade.php](/home/anisotton/projects/isotton/app/resources/views/welcome.blade.php:2): fundo escuro, glow sutil, language switcher dark, logo com sombra e cards de produtos adaptados. Também ajustei o [subsc",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "welcome.blade.php",
+        "feito",
+        "home",
+        "agora",
+        "está",
+        "tema",
+        "escuro",
+        "padrão"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "User: Boa noite Nolc, tudo bem?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "boa",
+        "noite",
+        "nolc",
+        "tudo",
+        "bem"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: Boa noite, Anderson. Tudo certo. Contexto carregado. Estou em sessão direta contigo, memória de hoje já existe e mostra a mudança recente do tema escuro na home da Isotton. Único ponto pendente registrado: testes PHP não rodaram por falta do driver MySQL no PHP. Estou",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "boa",
+        "noite",
+        "anderson",
+        "tudo",
+        "certo",
+        "contexto",
+        "carregado",
+        "estou"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "User: Quero adicionar tema escuro na home do projeto isotton, pode me ajudar com isso?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "quero",
+        "adicionar",
+        "tema",
+        "escuro",
+        "home",
+        "projeto",
+        "isotton",
+        "pode"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-21.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-21.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-21.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: Feito. A home da Isotton agora está em tema escuro em [welcome.blade.php](/home/anisotton/projects/isotton/app/resources/views/welcome.blade.php): fundo escuro com profundidade sutil, switcher em modo dark, logo com glow leve, cards de produtos escuros e hover por prod",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "90ee39ac7cd8"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "welcome.blade.php",
+        "feito",
+        "home",
+        "isotton",
+        "agora",
+        "está",
+        "tema",
+        "escuro"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:246:246": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:246:246",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 246,
+      "endLine": 246,
+      "source": "memory",
+      "snippet": "Assistant: Sim, isso é um problema estrutural real. E são dois tipos de falha diferentes: 1. **Falha de fluxo Git** Os agentes trabalharam na `master` quando deveriam ter usado `v0.5.0-alpha`. Isso indica que a issue não tinha uma regra operacional forte o bastante, ou o agente n",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "v0.5.0-alpha",
+        "sim",
+        "isso",
+        "problema",
+        "estrutural",
+        "real",
+        "são",
+        "dois"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:247:247": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:247:247",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 247,
+      "endLine": 247,
+      "source": "memory",
+      "snippet": "Assistant: arquivos não rastreados/sujos - estado de containers, `.env`, volumes, build assets e dependências - risco de perder trabalho útil A saída deve ser um relatório antes de qualquer correção destrutiva. **Camada 2 — Recuperação controlada** Depois do diagnóstico: - identi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "rastreados/sujos",
+        "arquivos",
+        "não",
+        "rastreados",
+        "sujos",
+        "estado",
+        "containers",
+        "env"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:248:248": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:248:248",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 248,
+      "endLine": 248,
+      "source": "memory",
+      "snippet": "Assistant: estiver errada, parar e pedir/abrir ajuste - nunca trabalhar direto em `master` quando a issue indicar versão/release branch - separar workspace de runtime, logs e artefatos gerados Eu criaria duas issues: 1. **Auditar e recuperar estado estrutural do Smasy** Para Orác",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "pedir/abrir",
+        "versão/release",
+        "estiver",
+        "errada",
+        "parar",
+        "pedir",
+        "abrir",
+        "ajuste"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:249:249": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:249:249",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 249,
+      "endLine": 249,
+      "source": "memory",
+      "snippet": "User: Para lhe dar mais contexto, a branch v0.5.0-alpha ela iniciou com a aplicação do 0 pois estavamos atualizando as tecnologias, então vai ter muita coisa diferente, o correto seria olhar \"funcionalidades\" para que nos trazer a funcionalidade para a nova versão, entende?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "v0.5.0-alpha",
+        "lhe",
+        "dar",
+        "mais",
+        "contexto",
+        "branch",
+        "v0.5.0",
+        "alpha"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:250:250": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:250:250",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 250,
+      "endLine": 250,
+      "source": "memory",
+      "snippet": "Assistant: Entendo. Então o problema não é simplesmente “mover commits da `master` para `v0.5.0-alpha`”. O cenário correto é: - `master` representa a versão anterior/legada com funcionalidades já existentes ou parcialmente entregues. - `v0.5.0-alpha` começou praticamente do zero",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "v0.5.0-alpha",
+        "anterior/legada",
+        "entendo",
+        "então",
+        "problema",
+        "não",
+        "simplesmente",
+        "mover"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:251:251": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:251:251",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 251,
+      "endLine": 251,
+      "source": "memory",
+      "snippet": "Assistant: `master` apenas como referência funcional - mapear quais features existem, quais telas, fluxos, regras e testes - não continuar evoluindo feature nova na `master` 2. **Definir `v0.5.0-alpha` como branch oficial de reconstrução** - todo trabalho novo deve nascer nela -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "v0.5.0-alpha",
+        "master",
+        "apenas",
+        "referência",
+        "funcional",
+        "mapear",
+        "quais",
+        "features"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:252:252": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:252:252",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 252,
+      "endLine": 252,
+      "source": "memory",
+      "snippet": "Assistant: alunos para v0.5.0-alpha” - “Migrar financeiro/mensalidades para v0.5.0-alpha” - “Migrar relatórios para v0.5.0-alpha” E não “corrigir branch” ou “copiar código”. 5. **Validação por comportamento** O critério de pronto deve ser: - comportamento equivalente ou melhor qu",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "v0.5.0-alpha",
+        "financeiro/mensalidades",
+        "alunos",
+        "v0.5.0",
+        "alpha",
+        "migrar",
+        "financeiro",
+        "mensalidades"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:253:253": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:253:253",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 253,
+      "endLine": 253,
+      "source": "memory",
+      "snippet": "Assistant: matriz de migração funcional e subtasks por feature, cada uma com critérios de teste. E uma segunda demanda de processo: **Título** Padronizar preflight obrigatório de branch e workspace para agentes DEV Essa segunda evita repetir o erro. Minha recomendação: criar prim",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "matriz",
+        "migração",
+        "funcional",
+        "subtasks",
+        "feature",
+        "cada",
+        "uma",
+        "com"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:254:254": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:254:254",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 254,
+      "endLine": 254,
+      "source": "memory",
+      "snippet": "Assistant: Entendo. Então o problema não é simplesmente “mover commits da `master` para `v0.5.0-alpha`”. O cenário correto é: - `master` representa a versão anterior/legada com funcionalidades já existentes ou parcialmente entregues. - `v0.5.0-alpha` começou praticamente do zero",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "v0.5.0-alpha",
+        "anterior/legada",
+        "entendo",
+        "então",
+        "problema",
+        "não",
+        "simplesmente",
+        "mover"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:255:255": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:255:255",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 255,
+      "endLine": 255,
+      "source": "memory",
+      "snippet": "Assistant: `master` apenas como referência funcional - mapear quais features existem, quais telas, fluxos, regras e testes - não continuar evoluindo feature nova na `master` 2. **Definir `v0.5.0-alpha` como branch oficial de reconstrução** - todo trabalho novo deve nascer nela -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "v0.5.0-alpha",
+        "master",
+        "apenas",
+        "referência",
+        "funcional",
+        "mapear",
+        "quais",
+        "features"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:256:256": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:256:256",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 256,
+      "endLine": 256,
+      "source": "memory",
+      "snippet": "Assistant: alunos para v0.5.0-alpha” - “Migrar financeiro/mensalidades para v0.5.0-alpha” - “Migrar relatórios para v0.5.0-alpha” E não “corrigir branch” ou “copiar código”. 5. **Validação por comportamento** O critério de pronto deve ser: - comportamento equivalente ou melhor qu",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "v0.5.0-alpha",
+        "financeiro/mensalidades",
+        "alunos",
+        "v0.5.0",
+        "alpha",
+        "migrar",
+        "financeiro",
+        "mensalidades"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:257:257": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:257:257",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 257,
+      "endLine": 257,
+      "source": "memory",
+      "snippet": "Assistant: matriz de migração funcional e subtasks por feature, cada uma com critérios de teste. E uma segunda demanda de processo: **Título** Padronizar preflight obrigatório de branch e workspace para agentes DEV Essa segunda evita repetir o erro. Minha recomendação: criar prim",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "matriz",
+        "migração",
+        "funcional",
+        "subtasks",
+        "feature",
+        "cada",
+        "uma",
+        "com"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:258:258": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:258:258",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 258,
+      "endLine": 258,
+      "source": "memory",
+      "snippet": "User: marca e produto — Smasy - Status: in_progress - Priority: high - Current mode: implementation - Last updated by run: db32a9b2-829e-47c0-ba56-be63ffd86e14 - Agent: Nolc (openclaw_gateway) ## Objective **Criado por:** Anderson Isotton O CMO deve orquestrar o time de MKT para",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "in-progress",
+        "openclaw-gateway",
+        "marca",
+        "produto",
+        "smasy",
+        "status",
+        "priority"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:259:259": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:259:259",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 259,
+      "endLine": 259,
+      "source": "memory",
+      "snippet": "User: personalidade * Headlines e copy principal 4. **Pilares de conteúdo** (Content Agent) * Temas estratégicos * Calendário editorial inicial * Formatos e canais prioritários 5. **Revisão final** (Review Agent) * Consistência entre todas as entregas * Validação de clareza e coe",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "personalidade",
+        "headlines",
+        "copy",
+        "principal",
+        "pilares",
+        "conteúdo",
+        "content",
+        "temas"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:260:260": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:260:260",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 260,
+      "endLine": 260,
+      "source": "memory",
+      "snippet": "User: captured for this run. - Latest run error (timeout): OpenClaw gateway run timed out after 120000ms ## Files / Routes Touched - No file or route paths were detected in the captured run summary. ## Commands Run - Heartbeat run `db32a9b2-829e-47c0-ba56-be63ffd86e14` invoked ad",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "captured",
+        "run",
+        "latest",
+        "error",
+        "timeout",
+        "openclaw",
+        "timed"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:261:261": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:261:261",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 261,
+      "endLine": 261,
+      "source": "memory",
+      "snippet": "User: Smasy\",\"status\":\"blocked\",\"workMode\":\"standard\",\"priority\":\"high\"},\"checkedOutByHarness\":false,\"dependencyBlockedInteraction\":false,\"treeHoldInteraction\":false,\"activeTreeHold\":null,\"unresolvedBlockerIssueIds\":[],\"unresolvedBlockerSummaries\":[],\"executionStage\":null,\"contin",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "smasy",
+        "status",
+        "blocked",
+        "workmode",
+        "standard",
+        "priority",
+        "high",
+        "checkedoutbyharness"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:262:262": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:262:262",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 262,
+      "endLine": 262,
+      "source": "memory",
+      "snippet": "User: parte; o CMO consolida e entrega o documento final.\\n\\n## Entregas esperadas\\n\\n1. **Pesquisa de mercado** (Research Agent)\\n * ICP (perfil do cliente ideal)\\n * Análise de concorrentes\\n * Dores e objeções do público\\n2. **Estratégia de posicionamento** (Strategy Agent)\\n",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "parte",
+        "cmo",
+        "consolida",
+        "entrega",
+        "documento",
+        "final",
+        "entregas",
+        "esperadas"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:263:263": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:263:263",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 263,
+      "endLine": 263,
+      "source": "memory",
+      "snippet": "User: — stack Laravel/PHP\\n* Landing page existente: isotton.lyra/smasy — usar como referência de identidade visual e copy atual\\n* Público: definir na pesquisa\\n\\nRegra de ouro:\\n\\n* Você não deixa as issues travar, qualquer\\n[truncated]\\n\\n## Acceptance Criteria\\n\\nNo explicit",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "laravel/php",
+        "isotton.lyra/smasy",
+        "stack",
+        "laravel",
+        "php",
+        "landing",
+        "page",
+        "existente"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:264:264": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:264:264",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 264,
+      "endLine": 264,
+      "source": "memory",
+      "snippet": "User: `openclaw_gateway`.\\n- Detailed shell/tool commands remain in the run log and transcript.\\n\\n## Blockers / Decisions\\n\\n- Latest run ended with `timed_out`; inspect the error before continuing.\\n\\n## Next Action\\n\\n- Inspect the failed run, fix the cause, and resume from th",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "openclaw-gateway",
+        "shell/tool",
+        "timed-out",
+        "detailed",
+        "shell",
+        "tool",
+        "commands"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:265:265": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:265:265",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 265,
+      "endLine": 265,
+      "source": "memory",
+      "snippet": "Assistant: Handled this recovery wake. [ISO-42](/ISO/issues/ISO-42) is confirmed `done`, with the completed Smasy deliverable linked as [ISO-56](/ISO/issues/ISO-56). I added a closure note for run `13499b15-3e82-4aaa-bc81-1c802b2d5714`; no blocker or further action remains.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "iso-42",
+        "iso/issues/iso-42",
+        "iso-56",
+        "iso/issues/iso-56",
+        "handled",
+        "recovery",
+        "wake",
+        "iso"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:266:266": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:266:266",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 266,
+      "endLine": 266,
+      "source": "memory",
+      "snippet": "User: Paperclip wake event for a cloud adapter. Run this procedure now. Do not guess undocumented endpoints and do not ask for additional heartbeat docs. Set these values in your run context: PAPERCLIP_RUN_ID=d5804bfe-7fdd-4274-b934-3f5ab90d500c PAPERCLIP_AGENT_ID=c3993ef0-278d-4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "paperclip-run-id",
+        "paperclip-agent-id",
+        "c3993ef0-278d-4",
+        "paperclip",
+        "wake",
+        "event",
+        "cloud",
+        "adapter"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:267:267": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:267:267",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 267,
+      "endLine": 267,
+      "source": "memory",
+      "snippet": "User: issue_id=47f3035f-0eab-48ec-9606-ea34d0700be5 wake_reason=source_scoped_recovery_action wake_comment_id= approval_id= approval_status= linked_issue_ids= HTTP rules: - Use Authorization: Bearer $PAPERCLIP_API_KEY on every API call. - Use X-Paperclip-Run-Id: $PAPERCLIP_RUN_ID",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "issue-id",
+        "wake-reason",
+        "source-scoped-recovery-action",
+        "wake-comment-id",
+        "approval-id",
+        "approval-status",
+        "linked-issue-ids",
+        "paperclip-api-key"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:268:268": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:268:268",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 268,
+      "endLine": 268,
+      "source": "memory",
+      "snippet": "User: GET /api/issues/{issueId}/comments - Execute the issue instructions exactly. If the issue is actionable, take concrete action in this run; do not stop at a plan unless planning was requested. - Leave durable progress with a clear next action. Use child issues for long or pa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "api/issues",
+        "get",
+        "api",
+        "issues",
+        "issueid",
+        "comments",
+        "execute",
+        "issue"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:269:269": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:269:269",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 269,
+      "endLine": 269,
+      "source": "memory",
+      "snippet": "User: acceptance before creating implementation subtasks. - If blocked, PATCH /api/issues/{issueId} with {\"status\":\"blocked\",\"comment\":\"what is blocked, who owns the unblock, and the next action\"}. - If instructions require a comment, POST /api/issues/{issueId}/comments with {\"bo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "api/issues",
+        "acceptance",
+        "creating",
+        "implementation",
+        "subtasks",
+        "blocked",
+        "patch",
+        "api"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:270:270": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:270:270",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 270,
+      "endLine": 270,
+      "source": "memory",
+      "snippet": "User: asked to create a new issue) ## Paperclip Wake Payload Treat this wake payload as the highest-priority change for the current heartbeat. This heartbeat is scoped to the issue below. Do not switch to another issue until you have handled this wake. Before generic repo explora",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "highest-priority",
+        "asked",
+        "create",
+        "new",
+        "issue",
+        "paperclip",
+        "wake",
+        "payload"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:271:271": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:271:271",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 271,
+      "endLine": 271,
+      "source": "memory",
+      "snippet": "User: heartbeat: `done`, `in_review` with a real reviewer/approval/interaction path, `blocked` with first-class blockers or a named unblock owner/action, delegated follow-up issues with blockers, or `in_progress` only when a live continuation path exists. Use child issues for lon",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "in-review",
+        "reviewer/approval/interaction",
+        "first-class",
+        "owner/action",
+        "follow-up",
+        "in-progress",
+        "heartbeat",
+        "done"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:272:272": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:272:272",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 272,
+      "endLine": 272,
+      "source": "memory",
+      "snippet": "User: Codex model for ISO-51 recovery - Status: in_progress - Priority: medium - Current mode: implementation - Last updated by run: 5d6b0da7-61d8-4b3f-8f47-a2d2091839db - Agent: Nolc (openclaw_gateway) ## Objective Recovery for ISO-57 found the concrete blocker: the retry run fa",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "iso-51",
+        "in-progress",
+        "openclaw-gateway",
+        "iso-57",
+        "codex",
+        "model",
+        "iso"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:273:273": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:273:273",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 273,
+      "endLine": 273,
+      "source": "memory",
+      "snippet": "User: account. ## Acceptance Criteria No explicit acceptance criteria captured. ## Recent Concrete Actions - Run `5d6b0da7-61d8-4b3f-8f47-a2d2091839db` finished with status `timed_out` at 2026-05-19T11:09:18.266Z. - No adapter-provided result summary was captured for this run. -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "timed-out",
+        "2026-05-19t11",
+        "18.266z",
+        "adapter-provided",
+        "account",
+        "acceptance",
+        "criteria",
+        "explicit"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:274:274": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:274:274",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 274,
+      "endLine": 274,
+      "source": "memory",
+      "snippet": "User: recent concrete action above. Structured wake payload JSON: ```json {\"reason\":\"source_scoped_recovery_action\",\"issue\":{\"id\":\"47f3035f-0eab-48ec-9606-ea34d0700be5\",\"identifier\":\"ISO-60\",\"title\":\"Fix unsupported Codex model for ISO-51 recovery\",\"status\":\"blocked\",\"workMode\":\"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "source-scoped-recovery-action",
+        "iso-60",
+        "iso-51",
+        "recent",
+        "concrete",
+        "action",
+        "above",
+        "structured"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:275:275": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:275:275",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 275,
+      "endLine": 275,
+      "source": "memory",
+      "snippet": "User: 5d6b0da7-61d8-4b3f-8f47-a2d2091839db\\n- Agent: Nolc (openclaw_gateway)\\n\\n## Objective\\n\\nRecovery for ISO-57 found the concrete blocker: the retry run failed before doing source issue work because the local Codex adapter requested `gpt-5.3-codex-spark`, which is not suppor",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "gpt",
+        "openclaw-gateway",
+        "iso-57",
+        "gpt-5.3-codex-spark",
+        "5d6b0da7",
+        "61d8",
+        "4b3f"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:276:276": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:276:276",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 276,
+      "endLine": 276,
+      "source": "memory",
+      "snippet": "User: `5d6b0da7-61d8-4b3f-8f47-a2d2091839db` finished with status `timed_out` at 2026-05-19T11:09:18.266Z.\\n- No adapter-provided result summary was captured for this run.\\n- Latest run error (timeout): OpenClaw gateway run timed out after 120000ms\\n\\n## Files / Routes Touched\\n\\",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "timed-out",
+        "2026-05-19t11",
+        "18.266z",
+        "adapter-provided",
+        "5d6b0da7",
+        "61d8",
+        "4b3f"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-19.txt:277:277": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-19.txt:277:277",
+      "path": "memory/.dreams/session-corpus/2026-05-19.txt",
+      "startLine": 277,
+      "endLine": 277,
+      "source": "memory",
+      "snippet": "User: above.\",\"bodyTruncated\":false,\"updatedAt\":\"2026-05-19T11:09:18.282Z\"},\"livenessContinuation\":null,\"interactionKind\":null,\"interactionStatus\":null,\"childIssueSummaries\":[],\"childIssueSummaryTruncated\":false,\"commentIds\":[],\"latestCommentId\":null,\"comments\":[],\"requestedCount",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "2fd3160a10b6"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "2026-05-19t11",
+        "18.282z",
+        "above",
+        "bodytruncated",
+        "false",
+        "updatedat",
+        "19t11",
+        "livenesscontinuation"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "Assistant: turmas - mensalidades - reposições - presença - avisos - dashboard básico - fora de escopo inicial 7. **Definir pilares de produto** Sugestão: - controle financeiro - organização de turmas - gestão de reposições - comunicação - eventos/apresentações Checklist: - descri",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "eventos/apresentações",
+        "turmas",
+        "mensalidades",
+        "reposições",
+        "presença",
+        "avisos",
+        "dashboard",
+        "básico"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-20.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-20.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-05-20.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "Assistant: de preço 10. **Criar requisitos da nova landing page** Objetivo: preparar a futura repaginação. Checklist: - público-alvo - dor principal - promessa - seções da página - CTA - provas necessárias - FAQ - captura de lead Depois desse épico, eu abriria os próximos: - **Pr",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-21T03:00:01.620Z",
+      "lastRecalledAt": "2026-05-21T03:00:01.620Z",
+      "queryHashes": [
+        "f8f9fcbffd97"
+      ],
+      "recallDays": [
+        "2026-05-21"
+      ],
+      "conceptTags": [
+        "público-alvo",
+        "preço",
+        "criar",
+        "requisitos",
+        "nova",
+        "landing",
+        "page",
+        "objetivo"
       ]
     }
   }

@@ -17,19 +17,18 @@ The DDP is composed of three parts:
 |----------|-------|---------|
 | **AS-IS** | Anderson | Current process, existing flows, problems |
 | **TO-BE** | Anderson | Desired project, scope, business rules |
-| **HOW-TO** | Nolc (Agent) | Technical analysis, estimates, schedule, risks |
+| **HOW-TO** | Agent | Technical analysis, estimates, schedule, risks |
 
-**Agent role:** Use `grill-me` to extract AS-IS and TO-BE from Anderson, then produce the HOW-TO and create structured issues in Paperclip.
+**Agent role:** Use `grill-me` to extract AS-IS and TO-BE from Anderson, then produce the HOW-TO and create structured issues in Paperclip using the available MCP tools.
 
 ---
 
 ## Issue Types
 
-| Tag | Created by | Purpose |
-|-----|-----------|---------|
-| `analysis` | Nolc | Parent issue — full DDP content, tracks the entire initiative |
-| `feature` | Nolc | One per team leader — contains relevant HOW-TO scope excerpt |
-| `bug` | — | Different model, defined separately |
+| Prefix | Created by | Purpose |
+|--------|-----------|---------|
+| `[Analysis]` | Leader | Parent issue — full DDP stored as document, tracks the entire initiative |
+| `[Feature]` | Leader | One per team leader — contains relevant HOW-TO scope excerpt |
 
 ---
 
@@ -46,17 +45,40 @@ Use the `grill-me` skill to interview Anderson one question at a time until AS-I
 
 ### Step 2 — Create Analysis Issue
 
-Once the discussion is complete, create the `analysis` issue in Paperclip.
+**Before creating:** search for an existing issue with the same title using `paperclip_issues` action=`list`, `q="[Analysis] <title>"`. If a matching issue exists, do NOT create a duplicate — update the existing one instead.
 
-**Writing style:** Apply `caveman lite` — remove filler and hedging, keep full sentences and grammar. All content must be written in **Brazilian Portuguese (pt-BR)**.
+Create the analysis issue using `paperclip_issues` action=`create`:
 
-**Issue fields:**
-- **title:** `[Analysis] <short description>`
-- **tag:** `analysis`
-- **status:** `in_review`
-- **body:** Full DDP content in pt-BR, caveman lite (see Output Structure below)
+```
+title:              "[Analysis] <short description>"
+description:        One paragraph summary of the demand in pt-BR (caveman lite)
+status:             "open"
+assignee_agent_id:  own agent ID (from paperclip_agents action=get or context)
+project_id:         resolved via paperclip_projects action=list
+goal_id:            resolved via paperclip_goals action=list (if applicable)
+priority:           "medium" (adjust based on urgency)
+```
 
-Then immediately create a **`request_confirmation`** in Paperclip pointing to this issue for Anderson's formal approval.
+**Store the full DDP** using `paperclip_documents` action=`upsert`:
+```
+issue_id: <created issue ID>
+key:      "ddp"
+title:    "DDP — <short description>"
+body:     Full DDP content in pt-BR, caveman lite (see DDP Template below)
+```
+
+**Then create the approval** using `paperclip_approvals` action=`create`:
+```
+type:                   "request_confirmation"
+issue_ids:              [<created issue ID>]
+requested_by_agent_id:  own agent ID
+```
+
+**Then update the issue status** using `paperclip_issues` action=`update`:
+```
+issue_id: <created issue ID>
+status:   "in_review"
+```
 
 **Do not proceed to Step 3 until Anderson approves the request_confirmation.**
 
@@ -64,184 +86,169 @@ Then immediately create a **`request_confirmation`** in Paperclip pointing to th
 
 After Anderson's formal approval, create **all feature issues at once** — one per team leader involved.
 
-**Writing style:** Apply `caveman ultra` — maximum compression, abbreviations (DB, auth, fn, req, res), arrows for causality (X → Y). All content must be written in **Brazilian Portuguese (pt-BR)**.
+Use `paperclip_issues` action=`create` for each feature issue:
 
-**Issue fields:**
-- **title:** `[Feature] <scope description> — <Leader name>`
-- **tag:** `feature`
-- **status:** `open`
-- **parent_id:** analysis issue ID
-- **body:** Relevant HOW-TO excerpt for that leader's scope in pt-BR, caveman ultra (components, estimates, risks, done criteria)
+```
+title:              "[Feature] <scope description> — <Leader name>"
+description:        Relevant HOW-TO excerpt for that leader's scope in pt-BR, caveman ultra
+status:             "open"
+parent_id:          analysis issue ID
+goal_id:            inherited from analysis issue
+project_id:         same as analysis issue
+assignee_agent_id:  leader agent ID (from paperclip_agents action=list)
+priority:           inherit from analysis issue
+```
 
 ### Step 4 — Block Analysis
 
-After all feature issues are created, update the analysis issue:
-- **status:** `blocked`
-- **comment:** `Blocked — waiting for feature issues to complete: #ID1, #ID2, ...`
+After all feature issues are created, update the analysis issue using `paperclip_issues` action=`update`:
+```
+issue_id:              analysis issue ID
+status:                "blocked"
+blocked_by_issue_ids:  [array of all feature issue IDs]
+comment:               "Blocked — waiting for feature issues: #ID1, #ID2, ..."
+```
 
 ### Step 5 — Monitor and Request Testing
 
-Monitor child feature issues via Paperclip API. When **all feature issues reach `done`**:
+When **all feature issues reach `done`**:
 
-1. Query project database via `php artisan` to retrieve relevant test users and credentials
-2. Build a test checklist from the HOW-TO acceptance criteria
-3. Update analysis issue status to `in_review`
-4. Create a **`request_confirmation`** with:
-   - Test checklist (one item per acceptance criterion)
-   - Test data (users, passwords, URLs pulled from DB/seeders)
-   - Environment details
+1. Retrieve test data by running `php artisan tinker` or querying the project database for relevant test users and credentials
+2. Build a test checklist from the HOW-TO acceptance criteria in the DDP document
+3. Update the analysis issue: `paperclip_issues` action=`update`, `status: "in_review"`
+4. Create a new approval using `paperclip_approvals` action=`create` with the test checklist and data in the payload
 
 ### Step 6 — Close
 
-After Anderson approves the test `request_confirmation`:
-- Update analysis issue **status:** `done`
-- Add closing comment summarizing what was delivered
+After Anderson approves the test confirmation:
+```
+paperclip_issues action=update
+  issue_id: analysis issue ID
+  status:   "done"
+  comment:  closing summary in pt-BR
+```
 
 ---
 
-## Output Structure (Analysis Issue Body)
+## DDP Template (stored in document key "ddp")
+
+All content must be written in **Brazilian Portuguese (pt-BR)** using caveman lite (remove filler, keep full sentences and grammar).
 
 ```markdown
 ## AS-IS
 
-### Current Process
-[Description of the current state]
+### Processo atual
+[Descrição do estado atual]
 
-### Existing Flows
-[How things work today]
+### Fluxos existentes
+[Como as coisas funcionam hoje]
 
-### Problems / Bottlenecks
-[What is broken or inefficient]
+### Problemas / Gargalos
+[O que está quebrado ou ineficiente]
 
 ---
 
 ## TO-BE
 
-### Objectives
-[SMART goals]
+### Objetivos
+[Metas SMART]
 
-### Scope
-[Deliverables list]
+### Escopo
+[Lista de entregáveis]
 
-### Business Rules
-[Rules that govern the new behavior]
+### Regras de negócio
+[Regras que governam o novo comportamento]
 
 ---
 
 ## HOW-TO
 
-### Technologies Involved
+### Tecnologias envolvidas
 
-| Technology | Version | Purpose |
-|------------|---------|---------|
-| [Language/Framework] | [Version] | [Usage] |
+| Tecnologia | Versão | Propósito |
+|------------|--------|-----------|
+| [Linguagem/Framework] | [Versão] | [Uso] |
 
-### Proposed Architecture
+### Arquitetura proposta
 
-#### Overview
-[Architecture description]
+#### Visão geral
+[Descrição da arquitetura]
 
-#### Component Diagram
-[Diagram or component description]
+#### Fluxo de dados
+[Como os dados transitam entre componentes]
 
-#### Data Flow
-[How data moves between components]
+### Decomposição de features
 
-### Feature Breakdown
+#### Módulo/Componente 1
+- **Feature:** [Nome]
+- **Descrição:** [O que faz]
+- **Regras aplicadas:** [Referência às regras de negócio do TO-BE]
+- **Estimativa:** [X horas/dias]
+- **Responsável:** [Nome do líder]
 
-#### Module/Component 1
-- **Feature:** [Name]
-- **Description:** [What it does]
-- **Rules applied:** [Reference to TO-BE business rules]
-- **Estimate:** [X hours/days]
-- **Owner:** [Leader name]
+### Plano de integração
 
-### Integration Plan
+| Sistema | Tipo de integração | Protocolo | Notas |
+|---------|--------------------|-----------|-------|
+| [Sistema] | [API/Webhook/DB] | [REST/etc] | [Notas] |
 
-| System | Integration Type | Protocol | Notes |
-|--------|-----------------|----------|-------|
-| [System] | [API/Webhook/DB] | [REST/etc] | [Notes] |
+### Estimativa de esforço
 
-### Effort Estimate
+| Fase | Atividade | Esforço |
+|------|-----------|---------|
+| Desenvolvimento | [Componente] | X horas |
+| Testes | [Tipo de teste] | X horas |
+| Deploy | [Atividades] | X horas |
+| **Total** | | **X horas** |
 
-| Phase | Activity | Effort |
-|-------|----------|--------|
-| Development | [Component] | X hours |
-| Testing | [Test type] | X hours |
-| Deployment | [Activities] | X hours |
-| **Total** | | **X hours** |
+### Cronograma proposto
 
-### Proposed Schedule
+| Marco | Data alvo | Entregável |
+|-------|-----------|------------|
+| Início | [Data] | Kickoff |
+| Entrega 1 | [Data] | [O quê] |
+| Entrega final | [Data] | [Escopo completo] |
 
-| Milestone | Target Date | Deliverable |
-|-----------|-------------|-------------|
-| Start | [Date] | Kickoff |
-| Delivery 1 | [Date] | [What] |
-| Final Delivery | [Date] | [Full scope] |
+### Riscos e dependências
 
-### Risks and Dependencies
+| Risco/Dependência | Impacto | Mitigação |
+|-------------------|---------|-----------|
+| [Descrição] | Alto/Médio/Baixo | [Ação] |
 
-| Risk/Dependency | Impact | Mitigation |
-|-----------------|--------|------------|
-| [Description] | High/Medium/Low | [Action] |
+### Critérios de aceite
+- [ ] Critério 1
+- [ ] Critério 2
 
-### Acceptance Criteria
-- [ ] Criterion 1
-- [ ] Criterion 2
-
-### Assumptions
-- [Assumption 1]
+### Premissas
+- [Premissa 1]
 ```
 
 ---
 
-## Feature Issue Body Template
+## Feature Issue Description Template
+
+Content in **pt-BR**, caveman ultra — maximum compression, abbreviations (DB, auth, fn, req), arrows for causality (X → Y).
 
 ```markdown
-## Scope
+## Escopo
 
-[Relevant excerpt from HOW-TO for this leader's area]
+[Trecho relevante do HOW-TO para a área deste líder]
 
-## Components / Modules
+## Componentes / Módulos
 
-- **[Component 1]:** [Description] — Estimate: X hours
-- **[Component 2]:** [Description] — Estimate: X hours
+- **[Componente 1]:** [Descrição] — Estimativa: X horas
+- **[Componente 2]:** [Descrição] — Estimativa: X horas
 
-## Acceptance Criteria
-- [ ] Criterion 1
-- [ ] Criterion 2
+## Critérios de aceite
+- [ ] Critério 1
+- [ ] Critério 2
 
-## Dependencies
-- [Analysis issue #ID]
-- [Other dependencies]
+## Dependências
+- [Issue de análise #ID]
+- [Outras dependências]
 
-## Risks
-- [Relevant risks for this scope]
-```
-
----
-
-## Test Request Template (request_confirmation)
-
-```markdown
-## Manual Testing Request
-
-All feature issues are complete. Please validate the following:
-
-### Test Checklist
-- [ ] [Criterion 1 from HOW-TO]
-- [ ] [Criterion 2 from HOW-TO]
-
-### Test Data
-| Field | Value |
-|-------|-------|
-| URL | [environment URL] |
-| User | [from DB/seeder] |
-| Password | [from DB/seeder] |
-| Role | [user role] |
-
-### Notes
-[Any relevant context for testing]
+## Riscos
+- [Riscos relevantes para este escopo]
 ```
 
 ---
@@ -249,22 +256,22 @@ All feature issues are complete. Please validate the following:
 ## Rules
 
 1. **NEVER** produce the HOW-TO without complete AS-IS and TO-BE from Anderson
-2. **NEVER** create feature issues before Anderson formally approves the analysis via `request_confirmation`
-3. **ALWAYS** create all feature issues at once after approval
-4. **ALWAYS** include the relevant HOW-TO excerpt in each feature issue body
-5. **ALWAYS** set analysis to `blocked` after creating feature issues
-6. **ALWAYS** use `request_confirmation` for both approval gates (analysis and testing)
-7. **ALWAYS** pull test data from the project database via `php artisan` — never hardcode credentials
-8. **ALWAYS** extract test checklist from the HOW-TO acceptance criteria
-9. **ALWAYS** write analysis issue content in pt-BR using caveman lite
-10. **ALWAYS** write feature issue content in pt-BR using caveman ultra
+2. **NEVER** create a feature issue before Anderson formally approves the analysis via approval
+3. **NEVER** create an issue without first checking for duplicates with `paperclip_issues` action=`list`
+4. **ALWAYS** store the full DDP in a document (`paperclip_documents` action=`upsert`, key=`"ddp"`) — never in the description
+5. **ALWAYS** use MCP tools (`paperclip_issues`, `paperclip_approvals`, `paperclip_documents`) — never raw HTTP calls
+6. **ALWAYS** create all feature issues at once after approval
+7. **ALWAYS** set analysis to `blocked` with `blocked_by_issue_ids` after creating feature issues
+8. **ALWAYS** use `request_confirmation` approvals for both gates (analysis and testing)
+9. **ALWAYS** pull test data from the project database — never hardcode credentials
+10. **ALWAYS** write all issue content in pt-BR (description caveman lite for analysis, caveman ultra for features)
 
 ---
 
 ## Integration with Leader Workflow
 
 After feature issues are created (`open`), each leader:
-1. Reads their feature issue body for scope and context
-2. Uses their `dispatch` skill to decompose into sub-issues for their team
+1. Reads their feature issue description for scope and context
+2. Uses `dispatch` skill to decompose into sub-issues for their team
 3. Updates feature issue to `blocked` while waiting for sub-issues
 4. Closes feature issue when all sub-issues are `done`

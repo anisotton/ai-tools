@@ -84,7 +84,32 @@
       "Bash(ln -s /home/anisotton/ai/skills/workflow-issues /home/anisotton/ai/agents/dev-team/oraculo/skills/workflow-issues)",
       "Bash(ln -s /home/anisotton/ai/skills/find-skills /home/anisotton/ai/agents/dev-team/oraculo/skills/find-skills)",
       "Bash(ln -s /home/anisotton/ai/skills/dispatch /home/anisotton/ai/agents/dev-team/oraculo/skills/dispatch)",
-      "Bash(ln -s /home/anisotton/ai/skills/dispatch /home/anisotton/ai/agents/c-suite/nolc/skills/dispatch)"
+      "Bash(ln -s /home/anisotton/ai/skills/dispatch /home/anisotton/ai/agents/c-suite/nolc/skills/dispatch)",
+      "Bash(sqlite3 *)",
+      "Bash(xargs -I{} ls ~/.openclaw/agents/nolc/codex-home/sessions/2026/{})",
+      "Bash(echo \"Monitorando sessão do Nolc \\(PID: $!\\)\")",
+      "Bash(echo \"Monitor PID: $!\")",
+      "Bash(ln -s /home/anisotton/ai/skills/workflow-demand-analysis ~/.openclaw/skills/workflow-demand-analysis)",
+      "Bash(ln -s /home/anisotton/ai/skills/dispatch ~/.openclaw/skills/dispatch)",
+      "Bash(ln -s /home/anisotton/ai/skills/get-team ~/.openclaw/skills/get-team)",
+      "Bash(curl -s -H 'Authorization: Bearer pcp_a15d52ec7b494a7a7dd841b3df6769a891e077451b011319' 'https://dashboard.lyra/api/issues?companyId=ISO&search=ISO-74')",
+      "Bash(curl -s -H 'Authorization: Bearer pcp_a15d52ec7b494a7a7dd841b3df6769a891e077451b011319' https://dashboard.lyra/api/agents/me)",
+      "Bash(curl -sv -H 'Authorization: Bearer pcp_a15d52ec7b494a7a7dd841b3df6769a891e077451b011319' https://dashboard.lyra/api/agents/me)",
+      "Bash(curl -sk -H 'Authorization: Bearer pcp_a15d52ec7b494a7a7dd841b3df6769a891e077451b011319' https://dashboard.lyra/api/agents/me)",
+      "Bash(curl -sk -H 'Authorization: Bearer pcp_a15d52ec7b494a7a7dd841b3df6769a891e077451b011319' https://dashboard.lyra/api/companies/c282c1b4-cc48-404d-a349-b89e776b79b8/labels)",
+      "Bash(ln -sf /home/anisotton/ai/skills/workflow-demand-analysis workflow-demand-analysis)",
+      "Bash(ln -sf /home/anisotton/ai/skills/paperclip paperclip)",
+      "Bash(ln -sf /home/anisotton/ai/skills/get-team get-team)",
+      "Bash(ln -sf /home/anisotton/ai/skills/dispatch dispatch)",
+      "Bash(ln -sf /home/anisotton/.agents/skills/caveman caveman)",
+      "Bash(ln -sf /home/anisotton/.agents/skills/grill-me grill-me)",
+      "Bash(ln -sf /home/anisotton/.agents/skills/grill-with-docs grill-with-docs)",
+      "WebFetch(domain:hackmd.io)",
+      "WebFetch(domain:docs.openclaw.ai)",
+      "WebFetch(domain:openclaw-ai.com)",
+      "WebFetch(domain:www.penligent.ai)",
+      "WebFetch(domain:deepwiki.com)",
+      "WebFetch(domain:repovive.com)"
     ]
   }
 }
