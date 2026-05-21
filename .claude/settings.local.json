@@ -71,7 +71,18 @@
       "Bash(DISPLAY=:0 /opt/Obsidian/obsidian --no-sandbox)",
       "Bash(echo \"PID: $!\")",
       "Bash(who)",
-      "Bash(w)"
+      "Bash(w)",
+      "Bash(ln -s /home/anisotton/ai/skills/workflow-demand-analysis /home/anisotton/ai/agents/c-suite/nolc/skills/workflow-demand-analysis)",
+      "Bash(ln -s /home/anisotton/ai/skills/grill-me /home/anisotton/ai/agents/c-suite/nolc/skills/grill-me)",
+      "Bash(ln -s /home/anisotton/ai/skills/caveman /home/anisotton/ai/agents/c-suite/nolc/skills/caveman)",
+      "WebSearch",
+      "WebFetch(domain:runyard.io)",
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:agenticthinking.ai)",
+      "WebFetch(domain:promptarch.ai)",
+      "Bash(ln -s /home/anisotton/ai/skills/caveman /home/anisotton/ai/agents/dev-team/oraculo/skills/caveman)",
+      "Bash(ln -s /home/anisotton/ai/skills/workflow-issues /home/anisotton/ai/agents/dev-team/oraculo/skills/workflow-issues)",
+      "Bash(ln -s /home/anisotton/ai/skills/find-skills /home/anisotton/ai/agents/dev-team/oraculo/skills/find-skills)"
     ]
   }
 }

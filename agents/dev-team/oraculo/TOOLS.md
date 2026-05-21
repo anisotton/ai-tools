@@ -1,4 +1,4 @@
-# TOOLS.md — Nolc
+# TOOLS.md — Oráculo
 
 Dados estáveis do ambiente. IDs e tokens são dinâmicos — busque via API.
 
@@ -26,19 +26,9 @@ Dados estáveis do ambiente. IDs e tokens são dinâmicos — busque via API.
 
 ---
 
-## OpenClaw
-
-| Campo | Valor |
-|-------|-------|
-| Gateway IPv4 | porta `18789` |
-| Proxy IPv6 (systemd user) | porta `18790` |
-| API key | `~/.openclaw/workspace/paperclip-claimed-api-key.json` (modo 600) |
-
----
-
 ## IDs de agentes e projetos
 
-Não hardcode — buscue sempre via API para evitar referências obsoletas:
+Não hardcode — busque sempre via API para evitar referências obsoletas:
 
 ```
 GET /api/agents/me                          → meu próprio ID e chainOfCommand
