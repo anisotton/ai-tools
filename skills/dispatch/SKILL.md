@@ -50,6 +50,7 @@ Create all sub-issues at once in Paperclip.
 **Issue fields:**
 - **title:** `[Task] <action verb> <scope> — <assignee name>`
 - **status:** `open`
+- **project:** project ID
 - **parent_id:** feature issue ID
 - **assignee_agent_id:** agent ID from `get-team`
 - **priority:** inherit from parent or set explicitly
@@ -85,7 +86,7 @@ After all sub-issues are created, update the feature issue:
 
 ## Rules
 
-1. **NEVER** create a sub-issue without all six required fields
+1. **NEVER** create a sub-issue without all required fields
 2. **ALWAYS** use `get-team` before dispatching — never hardcode agent IDs
 3. **ALWAYS** create all sub-issues at once — partial dispatch creates orphaned work
 4. **ALWAYS** block the parent after dispatching — never leave it open while subtasks are running
