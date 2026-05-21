@@ -82,7 +82,9 @@
       "WebFetch(domain:promptarch.ai)",
       "Bash(ln -s /home/anisotton/ai/skills/caveman /home/anisotton/ai/agents/dev-team/oraculo/skills/caveman)",
       "Bash(ln -s /home/anisotton/ai/skills/workflow-issues /home/anisotton/ai/agents/dev-team/oraculo/skills/workflow-issues)",
-      "Bash(ln -s /home/anisotton/ai/skills/find-skills /home/anisotton/ai/agents/dev-team/oraculo/skills/find-skills)"
+      "Bash(ln -s /home/anisotton/ai/skills/find-skills /home/anisotton/ai/agents/dev-team/oraculo/skills/find-skills)",
+      "Bash(ln -s /home/anisotton/ai/skills/dispatch /home/anisotton/ai/agents/dev-team/oraculo/skills/dispatch)",
+      "Bash(ln -s /home/anisotton/ai/skills/dispatch /home/anisotton/ai/agents/c-suite/nolc/skills/dispatch)"
     ]
   }
 }
