@@ -71,6 +71,9 @@ After all sub-issues are created, update the feature issue:
 ## Contexto
 [Por que essa task existe — ref. à issue pai + trecho relevante do escopo]
 
+## Objetivo
+[Qual o objetivo da issue — claro e direto]
+
 ## Resultado esperado
 [O que deve ser entregue — concreto e verificável]
 
