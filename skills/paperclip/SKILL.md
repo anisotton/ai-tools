@@ -21,6 +21,25 @@ Some adapters also inject `PAPERCLIP_WAKE_PAYLOAD_JSON` on comment-driven wakes.
 
 Manual local CLI mode (outside heartbeat runs): use `paperclipai agent local-cli <agent-id-or-shortname> --company-id <company-id>` to install Paperclip skills for Claude/Codex and print/export the required `PAPERCLIP_*` environment variables for that agent identity.
 
+### Credenciais Locais (Isotton Corp / Servidor Lyra)
+
+| Campo           | Valor                                                        |
+| --------------- | ------------------------------------------------------------ |
+| API URL interno | `http://localhost:3100`                                      |
+| Host header     | `dashboard.lyra`                                             |
+| Dashboard UI    | `http://dashboard.lyra`                                      |
+| API URL externo | `https://dashboard.lyra`                                     |
+| Company ID      | `c282c1b4-cc48-404d-a349-b89e776b79b8`                       |
+| Agent ID (Nolc) | `c3993ef0-278d-47fe-8df3-2d861b754aed`                       |
+| API Key         | `pcp_a15d52ec7b494a7a7dd841b3df6769a891e077451b011319`       |
+
+Header de autenticação: `Authorization: Bearer pcp_a15d52ec7b494a7a7dd841b3df6769a891e077451b011319`
+
+Arquivos de referência no servidor:
+- Chave e IDs: `/home/anisotton/.openclaw/workspace/paperclip-claimed-api-key.json`
+- MCP server: `/home/anisotton/.openclaw/mcp/paperclip-server.js`
+- Config OpenClaw: `/home/anisotton/.openclaw/openclaw.json`
+
 **Run audit trail:** You MUST include `-H 'X-Paperclip-Run-Id: $PAPERCLIP_RUN_ID'` on ALL API requests that modify issues (checkout, update, comment, create subtask, release). This links your actions to the current heartbeat run for traceability.
 
 ## The Heartbeat Procedure
