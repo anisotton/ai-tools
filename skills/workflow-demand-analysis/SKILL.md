@@ -86,6 +86,8 @@ status:   "in_review"
 
 After Anderson's formal approval, create **all feature issues at once** — one per team leader involved.
 
+**Before creating:** call `paperclip_agents action=list` to fetch the current agent roster and resolve each leader's ID by name. **Never** use the project's `leadAgentId` as a substitute — it may be null or wrong. If you cannot resolve a leader's ID from the list, stop and ask Anderson before creating the issue.
+
 Use `paperclip_issues` action=`create` for each feature issue:
 
 ```
@@ -95,7 +97,7 @@ status:             "open"
 parent_id:          analysis issue ID
 goal_id:            inherited from analysis issue
 project_id:         same as analysis issue
-assignee_agent_id:  leader agent ID (from paperclip_agents action=list)
+assignee_agent_id:  leader agent ID resolved from paperclip_agents action=list (REQUIRED — never omit)
 priority:           inherit from analysis issue
 ```
 
@@ -261,10 +263,11 @@ Content in **pt-BR**, caveman ultra — maximum compression, abbreviations (DB, 
 4. **ALWAYS** store the full DDP in a document (`paperclip_documents` action=`upsert`, key=`"ddp"`) — never in the description
 5. **ALWAYS** use MCP tools (`paperclip_issues`, `paperclip_approvals`, `paperclip_documents`) — never raw HTTP calls
 6. **ALWAYS** create all feature issues at once after approval
-7. **ALWAYS** set analysis to `blocked` with `blocked_by_issue_ids` after creating feature issues
-8. **ALWAYS** use `request_confirmation` approvals for both gates (analysis and testing)
-9. **ALWAYS** pull test data from the project database — never hardcode credentials
-10. **ALWAYS** write all issue content in pt-BR (description caveman lite for analysis, caveman ultra for features)
+7. **ALWAYS** resolve leader agent IDs via `paperclip_agents action=list` before creating feature issues — **NEVER** omit `assignee_agent_id`, even if the project has no `leadAgentId` configured
+8. **ALWAYS** set analysis to `blocked` with `blocked_by_issue_ids` after creating feature issues
+9. **ALWAYS** use `request_confirmation` approvals for both gates (analysis and testing)
+10. **ALWAYS** pull test data from the project database — never hardcode credentials
+11. **ALWAYS** write all issue content in pt-BR (description caveman lite for analysis, caveman ultra for features)
 
 ---
 

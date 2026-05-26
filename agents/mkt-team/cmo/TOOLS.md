@@ -1,35 +1,38 @@
-# CMO Agent — Tools
+# TOOLS.md — Vera
 
-This file records available tools, skills, data sources, and operational notes.
+Dados estáveis do ambiente. IDs e tokens são dinâmicos — busque via API.
 
-## Recommended skills to attach
+---
 
-- marketing-strategy
-- market-research
-- positioning
-- content-marketing
-- copywriting
-- paid-media-planning
-- analytics-and-kpis
-- brand-review
-- compliance-review
+## Paperclip
 
-## Knowledge base modules to connect
+| Campo | Valor |
+|-------|-------|
+| Dashboard | `https://dashboard.lyra` |
+| Company prefix | `ISO` |
+| Links de issue | `/ISO/issues/ISO-{número}` |
+| Links de agente | `/ISO/agents/{agent-url-key}` |
+| API key | Injetada via env — nunca hardcode |
 
-- marketing/fundamentals
-- marketing/branding
-- marketing/positioning
-- marketing/copywriting
-- marketing/consumer-behavior
-- marketing/content
-- marketing/growth
-- marketing/analytics
-- marketing/paid-media
+---
 
-## Operating notes
+## Lyra (servidor)
 
-- Use internal knowledge base first when available.
-- Use current platform documentation for ad platform rules and campaign setup details.
-- Never invent performance benchmarks as facts.
-- Treat CAC, ROAS, CTR, CPC, conversion rate, and LTV as context-dependent metrics.
-- When uncertain, propose a test rather than pretending certainty.
+| Campo | Valor |
+|-------|-------|
+| Hostname | `dashboard.lyra` |
+| IP | `192.168.1.50` |
+| Mapeamento | `/etc/hosts` → `192.168.1.50 dashboard.lyra` |
+
+---
+
+## IDs de agentes e projetos
+
+Não hardcode — busque sempre via API para evitar referências obsoletas:
+
+```
+GET /api/agents/me                          → meu próprio ID e chainOfCommand
+GET /api/companies/{companyId}/agents       → todos os agentes da empresa
+GET /api/companies/{companyId}/projects     → projetos ativos
+GET /api/companies/{companyId}/goals        → goals estratégicos
+```

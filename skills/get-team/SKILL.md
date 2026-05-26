@@ -10,13 +10,16 @@ Returns the caller's direct subordinates with name, identifier, and specialty. U
 
 ## Steps
 
-1. Call `GET /api/agents/me` — get your own agent record
-2. From the response, identify agents that report directly to you (subordinates list or equivalent field)
-3. For each subordinate, extract:
+1. Call `GET /api/agents/me` — get your own agent record and note your `id`
+2. Call `GET /api/companies/{companyId}/agents` — list all agents in the company
+3. Filter the list to agents where `reportsTo == your own id` — these are your direct subordinates
+4. For each subordinate, extract:
    - `id` — unique identifier to use in API calls (assigneeAgentId, etc.)
    - `name` — display name
-   - `specialty` or `role` — what they are capable of (from their agent record)
-4. Return a structured summary and keep it in context for the current session
+   - `specialty` or `role` — what they are capable of (from their agent record or AGENTS.md context)
+5. Return a structured summary and keep it in context for the current session
+
+**Important:** Do NOT rely on a `subordinateAgentIds` field in your own agent record — this field is not populated. The reporting relationship is stored as `reportsTo` on each subordinate's record. Always use step 2–3 to discover your team.
 
 ## Output format
 
@@ -28,6 +31,6 @@ Team:
 
 ## Notes
 
-- If no subordinates are returned, report to your superior — team may not be configured
-- Never hardcode the IDs returned — they are valid for the current session only; always re-fetch when uncertain
+- If filtering by `reportsTo` returns 0 results, double-check your own agent `id` and retry before escalating
+- Never hardcode the IDs returned — always re-fetch when uncertain
 - If a task requires a capability no subordinate has, escalate to your superior before proceeding

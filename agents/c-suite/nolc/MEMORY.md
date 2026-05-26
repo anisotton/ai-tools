@@ -33,3 +33,10 @@
 
 ## 2026-05-20 — Preferencia de idioma
 - O usuario prefere conversar em portugues do Brasil (pt-BR). Manter respostas concisas e amigaveis quando possivel.
+
+## Promoted From Short-Term Memory (2026-05-24)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-20.md:3:3 -->
+- - 13:22 UTC — Usuario pediu para falar em portugues e salvar a preferencia nas memorias. Preferencia registrada: portugues do Brasil (pt-BR), com estilo conciso e amigavel. [score=0.835 recalls=0 avg=0.620 source=memory/2026-05-20.md:3-3]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-20.md:5:5 -->
+- - 02:58 UTC — Anderson solicitou tema escuro fixo na home do projeto isotton. Decisões: seguir recomendação do Nolc; escopo somente rota `/`; não alterar visual das páginas carmasy/smasy; prosseguir via fluxo DDP antes de issue/execução. [score=0.835 recalls=0 avg=0.620 source=memory/2026-05-20.md:5-5]
